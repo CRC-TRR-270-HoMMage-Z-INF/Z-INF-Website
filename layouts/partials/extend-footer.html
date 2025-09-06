@@ -1,0 +1,12 @@
+<div class="mt-6 text-center text-sm text-neutral-500 dark:text-neutral-400 space-x-3">
+  <a class="underline hover:decoration-primary-400 hover:text-primary-500"
+     href="{{ "impressum/" | relURL }}">Impressum</a>
+  <span aria-hidden="true">·</span>
+  <a class="underline hover:decoration-primary-400 hover:text-primary-500"
+     href="{{ "datenschutz/" | relURL }}">Datenschutz</a>
+  <span aria-hidden="true">·</span>
+  <a class="underline hover:decoration-primary-400 hover:text-primary-500"
+     href="{{ printf "mailto:%s" site.Params.contact_email | safeURL }}">
+    Kontakt
+  </a>
+</div>
