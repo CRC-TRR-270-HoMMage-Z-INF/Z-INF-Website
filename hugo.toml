@@ -1,0 +1,8 @@
+baseURL = 'https://crc-trr-270-hommage-z-inf.github.io/Z-INF-Website/'
+languageCode = 'en'
+title = 'CRC/TRR 270 HoMMage Z-INF'
+
+[module]
+  [[module.imports]]
+    # The website's theme
+    path = "github.com/jpanther/lynx"
