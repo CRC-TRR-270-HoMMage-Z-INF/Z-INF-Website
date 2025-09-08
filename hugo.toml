@@ -12,7 +12,9 @@ disableKinds = ["taxonomy", "term"]
     headline = "This page lists the services of the CRC/TRR 270 HoMMage Z-INF."
 
     links = [
-      { elabftw = { href = "https://sfb270eln.physik.uni-due.de/", text = "eLabFTW" } }
+      { elabftw = { href = "https://sfb270eln.physik.uni-due.de/", text = "eLabFTW" } },
+      { nomad-oasis = { href = "https://samarium.trr270.tu-darmstadt.de/", text = "NOMAD Oasis (Darmstadt VPN Required)" } },
+      { kadi4mat = { href = "https://nickel.trr270.tu-darmstadt.de/", text = "Kadi4Mat (Darmstadt VPN Required)" } }
     ]
 
 [module]
