@@ -6,7 +6,6 @@ disableKinds = ["taxonomy", "term"]
 
 [params]
   contact_email = "ross.knapman@uni-due.de"
-  attribution   = false  # hide "Powered by Lynx" if you prefer
 
   [params.author]
     name     = "CRC/TRR 270 HoMMage Z-INF Link Hub"
